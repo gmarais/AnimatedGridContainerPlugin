@@ -1,7 +1,7 @@
 tool
 extends Container
 # Grid variables:
-export(int, 1, 1024, 1) var rows setget set_rows, get_rows
+export(int, 1, 1024, 1) var rows = 1 setget set_rows, get_rows
 export(int, "Horizontal", "Vertical") var fill_priority setget set_fill_priority
 export(int, "Begin", "End") var horizontal_fill_direction = 1 setget set_horizontal_fill_direction
 export(int, "Begin", "End") var vertical_fill_direction = 1 setget set_vertical_fill_direction
